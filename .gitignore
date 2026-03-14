@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.log
+
+# Raw data (too large for GitHub, stored externally)
+raw_data/
+*.dta
+
+# Large/old data files
+final_cleaned.csv.zip
+tables-20260314T144344Z-3-001.zip
+
+# Generated intermediate files
+variable_mapping_wave9.csv
+variable_mapping_recommendations.md
